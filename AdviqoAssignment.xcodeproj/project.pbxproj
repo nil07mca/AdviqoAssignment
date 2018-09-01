@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30CF6F85213B1C8600B37E4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6F84213B1C8600B37E4D /* AppDelegate.swift */; };
+		30CF6F87213B1C8600B37E4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6F86213B1C8600B37E4D /* ViewController.swift */; };
+		30CF6F8A213B1C8600B37E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CF6F88213B1C8600B37E4D /* Main.storyboard */; };
+		30CF6F8D213B1C8600B37E4D /* AdviqoAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6F8B213B1C8600B37E4D /* AdviqoAssignment.xcdatamodeld */; };
+		30CF6F8F213B1C8600B37E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CF6F8E213B1C8600B37E4D /* Assets.xcassets */; };
+		30CF6F92213B1C8600B37E4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CF6F90213B1C8600B37E4D /* LaunchScreen.storyboard */; };
+		30CF6F9D213B1C8600B37E4D /* AdviqoAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6F9C213B1C8600B37E4D /* AdviqoAssignmentTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30CF6F99213B1C8600B37E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30CF6F79213B1C8600B37E4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30CF6F80213B1C8600B37E4D;
+			remoteInfo = AdviqoAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30CF6F81213B1C8600B37E4D /* AdviqoAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdviqoAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CF6F84213B1C8600B37E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30CF6F86213B1C8600B37E4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30CF6F89213B1C8600B37E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30CF6F8C213B1C8600B37E4D /* AdviqoAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdviqoAssignment.xcdatamodel; sourceTree = "<group>"; };
+		30CF6F8E213B1C8600B37E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30CF6F91213B1C8600B37E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30CF6F93213B1C8600B37E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CF6F98213B1C8600B37E4D /* AdviqoAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdviqoAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CF6F9C213B1C8600B37E4D /* AdviqoAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviqoAssignmentTests.swift; sourceTree = "<group>"; };
+		30CF6F9E213B1C8600B37E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30CF6F7E213B1C8600B37E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CF6F95213B1C8600B37E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30CF6F78213B1C8600B37E4D = {
+			isa = PBXGroup;
+			children = (
+				30CF6F83213B1C8600B37E4D /* AdviqoAssignment */,
+				30CF6F9B213B1C8600B37E4D /* AdviqoAssignmentTests */,
+				30CF6F82213B1C8600B37E4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30CF6F82213B1C8600B37E4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30CF6F81213B1C8600B37E4D /* AdviqoAssignment.app */,
+				30CF6F98213B1C8600B37E4D /* AdviqoAssignmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30CF6F83213B1C8600B37E4D /* AdviqoAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				30CF6F84213B1C8600B37E4D /* AppDelegate.swift */,
+				30CF6F86213B1C8600B37E4D /* ViewController.swift */,
+				30CF6F88213B1C8600B37E4D /* Main.storyboard */,
+				30CF6F8E213B1C8600B37E4D /* Assets.xcassets */,
+				30CF6F90213B1C8600B37E4D /* LaunchScreen.storyboard */,
+				30CF6F93213B1C8600B37E4D /* Info.plist */,
+				30CF6F8B213B1C8600B37E4D /* AdviqoAssignment.xcdatamodeld */,
+			);
+			path = AdviqoAssignment;
+			sourceTree = "<group>";
+		};
+		30CF6F9B213B1C8600B37E4D /* AdviqoAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				30CF6F9C213B1C8600B37E4D /* AdviqoAssignmentTests.swift */,
+				30CF6F9E213B1C8600B37E4D /* Info.plist */,
+			);
+			path = AdviqoAssignmentTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30CF6F80213B1C8600B37E4D /* AdviqoAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CF6FA1213B1C8600B37E4D /* Build configuration list for PBXNativeTarget "AdviqoAssignment" */;
+			buildPhases = (
+				30CF6F7D213B1C8600B37E4D /* Sources */,
+				30CF6F7E213B1C8600B37E4D /* Frameworks */,
+				30CF6F7F213B1C8600B37E4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdviqoAssignment;
+			productName = AdviqoAssignment;
+			productReference = 30CF6F81213B1C8600B37E4D /* AdviqoAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30CF6F97213B1C8600B37E4D /* AdviqoAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CF6FA4213B1C8600B37E4D /* Build configuration list for PBXNativeTarget "AdviqoAssignmentTests" */;
+			buildPhases = (
+				30CF6F94213B1C8600B37E4D /* Sources */,
+				30CF6F95213B1C8600B37E4D /* Frameworks */,
+				30CF6F96213B1C8600B37E4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30CF6F9A213B1C8600B37E4D /* PBXTargetDependency */,
+			);
+			name = AdviqoAssignmentTests;
+			productName = AdviqoAssignmentTests;
+			productReference = 30CF6F98213B1C8600B37E4D /* AdviqoAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30CF6F79213B1C8600B37E4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Niladri Chatterjee";
+				TargetAttributes = {
+					30CF6F80213B1C8600B37E4D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					30CF6F97213B1C8600B37E4D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30CF6F80213B1C8600B37E4D;
+					};
+				};
+			};
+			buildConfigurationList = 30CF6F7C213B1C8600B37E4D /* Build configuration list for PBXProject "AdviqoAssignment" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30CF6F78213B1C8600B37E4D;
+			productRefGroup = 30CF6F82213B1C8600B37E4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30CF6F80213B1C8600B37E4D /* AdviqoAssignment */,
+				30CF6F97213B1C8600B37E4D /* AdviqoAssignmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30CF6F7F213B1C8600B37E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CF6F92213B1C8600B37E4D /* LaunchScreen.storyboard in Resources */,
+				30CF6F8F213B1C8600B37E4D /* Assets.xcassets in Resources */,
+				30CF6F8A213B1C8600B37E4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CF6F96213B1C8600B37E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30CF6F7D213B1C8600B37E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CF6F87213B1C8600B37E4D /* ViewController.swift in Sources */,
+				30CF6F8D213B1C8600B37E4D /* AdviqoAssignment.xcdatamodeld in Sources */,
+				30CF6F85213B1C8600B37E4D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CF6F94213B1C8600B37E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CF6F9D213B1C8600B37E4D /* AdviqoAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30CF6F9A213B1C8600B37E4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30CF6F80213B1C8600B37E4D /* AdviqoAssignment */;
+			targetProxy = 30CF6F99213B1C8600B37E4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30CF6F88213B1C8600B37E4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CF6F89213B1C8600B37E4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30CF6F90213B1C8600B37E4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CF6F91213B1C8600B37E4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30CF6F9F213B1C8600B37E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30CF6FA0213B1C8600B37E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30CF6FA2213B1C8600B37E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AJ44N5SBM;
+				INFOPLIST_FILE = AdviqoAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NIladri.AdviqoAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30CF6FA3213B1C8600B37E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AJ44N5SBM;
+				INFOPLIST_FILE = AdviqoAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NIladri.AdviqoAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30CF6FA5213B1C8600B37E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AJ44N5SBM;
+				INFOPLIST_FILE = AdviqoAssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NIladri.AdviqoAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdviqoAssignment.app/AdviqoAssignment";
+			};
+			name = Debug;
+		};
+		30CF6FA6213B1C8600B37E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AJ44N5SBM;
+				INFOPLIST_FILE = AdviqoAssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NIladri.AdviqoAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdviqoAssignment.app/AdviqoAssignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30CF6F7C213B1C8600B37E4D /* Build configuration list for PBXProject "AdviqoAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CF6F9F213B1C8600B37E4D /* Debug */,
+				30CF6FA0213B1C8600B37E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30CF6FA1213B1C8600B37E4D /* Build configuration list for PBXNativeTarget "AdviqoAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CF6FA2213B1C8600B37E4D /* Debug */,
+				30CF6FA3213B1C8600B37E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30CF6FA4213B1C8600B37E4D /* Build configuration list for PBXNativeTarget "AdviqoAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CF6FA5213B1C8600B37E4D /* Debug */,
+				30CF6FA6213B1C8600B37E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		30CF6F8B213B1C8600B37E4D /* AdviqoAssignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				30CF6F8C213B1C8600B37E4D /* AdviqoAssignment.xcdatamodel */,
+			);
+			currentVersion = 30CF6F8C213B1C8600B37E4D /* AdviqoAssignment.xcdatamodel */;
+			path = AdviqoAssignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 30CF6F79213B1C8600B37E4D /* Project object */;
+}
