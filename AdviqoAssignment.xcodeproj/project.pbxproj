@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30257DA02140AC3300A347B8 /* AAProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30257D9F2140AC3300A347B8 /* AAProductDetailsViewController.swift */; };
+		30257DA22140ADF000A347B8 /* AAHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30257DA12140ADF000A347B8 /* AAHomeViewController.swift */; };
 		30CF6F85213B1C8600B37E4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6F84213B1C8600B37E4D /* AppDelegate.swift */; };
-		30CF6F87213B1C8600B37E4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6F86213B1C8600B37E4D /* ViewController.swift */; };
 		30CF6F8A213B1C8600B37E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CF6F88213B1C8600B37E4D /* Main.storyboard */; };
 		30CF6F8D213B1C8600B37E4D /* AdviqoAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6F8B213B1C8600B37E4D /* AdviqoAssignment.xcdatamodeld */; };
 		30CF6F8F213B1C8600B37E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CF6F8E213B1C8600B37E4D /* Assets.xcassets */; };
 		30CF6F92213B1C8600B37E4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CF6F90213B1C8600B37E4D /* LaunchScreen.storyboard */; };
 		30CF6F9D213B1C8600B37E4D /* AdviqoAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6F9C213B1C8600B37E4D /* AdviqoAssignmentTests.swift */; };
+		30CF6FA8213B1CC300B37E4D /* AAProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6FA7213B1CC300B37E4D /* AAProduct.swift */; };
+		30CF6FAA213B1ED700B37E4D /* AADataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6FA9213B1ED700B37E4D /* AADataController.swift */; };
+		30CF6FAC213B201900B37E4D /* AAServiceFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6FAB213B201900B37E4D /* AAServiceFetcher.swift */; };
+		30CF6FAE213B256800B37E4D /* AACoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6FAD213B256800B37E4D /* AACoreDataStack.swift */; };
+		30CF6FB0213B2A7E00B37E4D /* AAProductListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6FAF213B2A7E00B37E4D /* AAProductListingViewController.swift */; };
+		30CF6FB2213B44EC00B37E4D /* AAImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6FB1213B44EC00B37E4D /* AAImageHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,9 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30257D9F2140AC3300A347B8 /* AAProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAProductDetailsViewController.swift; sourceTree = "<group>"; };
+		30257DA12140ADF000A347B8 /* AAHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAHomeViewController.swift; sourceTree = "<group>"; };
 		30CF6F81213B1C8600B37E4D /* AdviqoAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdviqoAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30CF6F84213B1C8600B37E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30CF6F86213B1C8600B37E4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30CF6F89213B1C8600B37E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30CF6F8C213B1C8600B37E4D /* AdviqoAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdviqoAssignment.xcdatamodel; sourceTree = "<group>"; };
 		30CF6F8E213B1C8600B37E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +46,12 @@
 		30CF6F98213B1C8600B37E4D /* AdviqoAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdviqoAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30CF6F9C213B1C8600B37E4D /* AdviqoAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviqoAssignmentTests.swift; sourceTree = "<group>"; };
 		30CF6F9E213B1C8600B37E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30CF6FA7213B1CC300B37E4D /* AAProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAProduct.swift; sourceTree = "<group>"; };
+		30CF6FA9213B1ED700B37E4D /* AADataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AADataController.swift; sourceTree = "<group>"; };
+		30CF6FAB213B201900B37E4D /* AAServiceFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAServiceFetcher.swift; sourceTree = "<group>"; };
+		30CF6FAD213B256800B37E4D /* AACoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AACoreDataStack.swift; sourceTree = "<group>"; };
+		30CF6FAF213B2A7E00B37E4D /* AAProductListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAProductListingViewController.swift; sourceTree = "<group>"; };
+		30CF6FB1213B44EC00B37E4D /* AAImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAImageHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,12 +94,19 @@
 			isa = PBXGroup;
 			children = (
 				30CF6F84213B1C8600B37E4D /* AppDelegate.swift */,
-				30CF6F86213B1C8600B37E4D /* ViewController.swift */,
 				30CF6F88213B1C8600B37E4D /* Main.storyboard */,
 				30CF6F8E213B1C8600B37E4D /* Assets.xcassets */,
 				30CF6F90213B1C8600B37E4D /* LaunchScreen.storyboard */,
 				30CF6F93213B1C8600B37E4D /* Info.plist */,
 				30CF6F8B213B1C8600B37E4D /* AdviqoAssignment.xcdatamodeld */,
+				30CF6FA7213B1CC300B37E4D /* AAProduct.swift */,
+				30CF6FA9213B1ED700B37E4D /* AADataController.swift */,
+				30CF6FAB213B201900B37E4D /* AAServiceFetcher.swift */,
+				30CF6FAD213B256800B37E4D /* AACoreDataStack.swift */,
+				30CF6FAF213B2A7E00B37E4D /* AAProductListingViewController.swift */,
+				30257DA12140ADF000A347B8 /* AAHomeViewController.swift */,
+				30257D9F2140AC3300A347B8 /* AAProductDetailsViewController.swift */,
+				30CF6FB1213B44EC00B37E4D /* AAImageHelper.swift */,
 			);
 			path = AdviqoAssignment;
 			sourceTree = "<group>";
@@ -143,6 +164,7 @@
 		30CF6F79213B1C8600B37E4D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AA;
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Niladri Chatterjee";
@@ -202,9 +224,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30CF6F87213B1C8600B37E4D /* ViewController.swift in Sources */,
+				30CF6FB2213B44EC00B37E4D /* AAImageHelper.swift in Sources */,
+				30CF6FA8213B1CC300B37E4D /* AAProduct.swift in Sources */,
+				30CF6FAE213B256800B37E4D /* AACoreDataStack.swift in Sources */,
+				30257DA22140ADF000A347B8 /* AAHomeViewController.swift in Sources */,
+				30CF6FB0213B2A7E00B37E4D /* AAProductListingViewController.swift in Sources */,
 				30CF6F8D213B1C8600B37E4D /* AdviqoAssignment.xcdatamodeld in Sources */,
+				30257DA02140AC3300A347B8 /* AAProductDetailsViewController.swift in Sources */,
 				30CF6F85213B1C8600B37E4D /* AppDelegate.swift in Sources */,
+				30CF6FAA213B1ED700B37E4D /* AADataController.swift in Sources */,
+				30CF6FAC213B201900B37E4D /* AAServiceFetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
