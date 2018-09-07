@@ -8,13 +8,16 @@
 
 import UIKit
 
+/*
+ This class is for all network communication related activity, if required authentication challenge or SSL pinning can be added here
+ */
 class AAServiceFetcher: NSObject {
     typealias ResponseHandler = (_ status: Bool, _ json: Data?, _ error: Error?) -> Void
     /**
      call this method to initiate service call
      - parameters:
-     - url as URL object
-     - handler as ResponseHandler
+        - url as URL object
+        - handler as ResponseHandler
      */
     func fetchData(urlSession: URLSession = URLSession(
         configuration: URLSessionConfiguration.default),

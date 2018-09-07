@@ -9,40 +9,14 @@
 import UIKit
 import CoreData
 
+/*
+ This class is an additional class for core data operations, now its is specific to a perticular entity but it can be extended to make it more generic
+ */
 class AADataController: NSObject {
     static let sharedInstance = AADataController()
     private let searchUrl = "https://api.mercadolibre.com/sites/MLA/search?q="
-    private override init() {
-        super.init()
-        self.clearData()
-    }
+    private override init() {}
     
-    /**
-     call this method to load users
-     */
-    func searchProducts(searchString: String) {
-        let string = searchUrl + searchString
-        AAServiceFetcher().fetchData(url: URL(string: string)) { (status, data, error) in
-            guard let data = data else { return }
-            self.handleData(data: data)
-        }
-    }
-    
-    
-    /**
-     Private method
-     */
-    private func handleData(data: Data) {
-        do {
-         let decoder = JSONDecoder()
-         let productList = try decoder.decode(AAProducts.self, from: data)
-         self.saveInCoreDataWith(products: productList)
-        } catch let err {
-            print("Err", err)
-        }
-    }
-    
-
     lazy var fetchedhResultController: NSFetchedResultsController<NSFetchRequestResult> = {
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: String(describing: Product.self))
         fetchRequest.sortDescriptors = [NSSortDescriptor(key: "fetchTime", ascending: false)]
@@ -82,6 +56,11 @@ class AADataController: NSObject {
         return nil
     }
     
+    /*
+     Call this method to save product
+     - parameters:
+        - product as AAProducts object
+     */
     func saveInCoreDataWith(products: AAProducts) {
         _ = products.products.map{self.createProductFrom(product: $0)}
         do {
@@ -91,7 +70,8 @@ class AADataController: NSObject {
         }
     }
     
-    private func clearData() {
+    /* clear core data */
+    func clearData() {
         do {
             
             let context = AACoreDataStack.sharedInstance.persistentContainer.viewContext
@@ -101,12 +81,13 @@ class AADataController: NSObject {
                 _ = objects.map{$0.map{context.delete($0)}}
                 AACoreDataStack.sharedInstance.saveContext()
             } catch let error {
-                print("ERROR DELETING : \(error)")
+                print("ERROR: \(error)")
             }
         }
-    }
+    }    
 }
 
+/* An extension for async image download */
 extension AADataController {
     private func downloadProductThumbnail(product: Product) {
         var task: URLSessionDownloadTask!

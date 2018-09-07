@@ -7,6 +7,9 @@
 //
 
 import Foundation
+/*
+ This class is for creating a model to hold the JSON response
+ */
 struct AAProducts: Codable {
     let products: [AAProductData]
     enum CodingKeys : String, CodingKey {

@@ -10,8 +10,9 @@ import UIKit
 import Foundation
 import CoreData
 
+// MARK: - Core Data stack
 class AACoreDataStack: NSObject {
-    // MARK: - Core Data stack
+    
     static let sharedInstance = AACoreDataStack()
     private override init() {}
     

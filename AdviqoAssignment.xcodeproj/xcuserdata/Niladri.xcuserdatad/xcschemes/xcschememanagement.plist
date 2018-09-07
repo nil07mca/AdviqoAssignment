@@ -9,6 +9,24 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>AdviqoAssignmentStubbed.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>30CF6F80213B1C8600B37E4D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>30CF6F97213B1C8600B37E4D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>

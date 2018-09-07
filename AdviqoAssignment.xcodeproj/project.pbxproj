@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30257DA02140AC3300A347B8 /* AAProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30257D9F2140AC3300A347B8 /* AAProductDetailsViewController.swift */; };
-		30257DA22140ADF000A347B8 /* AAHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30257DA12140ADF000A347B8 /* AAHomeViewController.swift */; };
+		306A78032141B4DE002EB78D /* AAProductListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A78012141B4DE002EB78D /* AAProductListingViewController.swift */; };
+		306A78042141B4DE002EB78D /* AAProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A78022141B4DE002EB78D /* AAProductDetailsViewController.swift */; };
+		306A78062141B510002EB78D /* AAHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A78052141B510002EB78D /* AAHomeViewController.swift */; };
+		306A780E2141E792002EB78D /* AAProductManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A780D2141E792002EB78D /* AAProductManager.swift */; };
+		306A78142141FC6C002EB78D /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = 306A78132141FC6C002EB78D /* products.json */; };
+		306A78162141FCB5002EB78D /* AAStubbedServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 306A78152141FCB5002EB78D /* AAStubbedServer.swift */; };
 		30CF6F85213B1C8600B37E4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6F84213B1C8600B37E4D /* AppDelegate.swift */; };
 		30CF6F8A213B1C8600B37E4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30CF6F88213B1C8600B37E4D /* Main.storyboard */; };
 		30CF6F8D213B1C8600B37E4D /* AdviqoAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6F8B213B1C8600B37E4D /* AdviqoAssignment.xcdatamodeld */; };
@@ -19,8 +23,6 @@
 		30CF6FAA213B1ED700B37E4D /* AADataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6FA9213B1ED700B37E4D /* AADataController.swift */; };
 		30CF6FAC213B201900B37E4D /* AAServiceFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6FAB213B201900B37E4D /* AAServiceFetcher.swift */; };
 		30CF6FAE213B256800B37E4D /* AACoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6FAD213B256800B37E4D /* AACoreDataStack.swift */; };
-		30CF6FB0213B2A7E00B37E4D /* AAProductListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6FAF213B2A7E00B37E4D /* AAProductListingViewController.swift */; };
-		30CF6FB2213B44EC00B37E4D /* AAImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF6FB1213B44EC00B37E4D /* AAImageHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		30257D9F2140AC3300A347B8 /* AAProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAProductDetailsViewController.swift; sourceTree = "<group>"; };
-		30257DA12140ADF000A347B8 /* AAHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAHomeViewController.swift; sourceTree = "<group>"; };
+		306A78012141B4DE002EB78D /* AAProductListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAProductListingViewController.swift; sourceTree = "<group>"; };
+		306A78022141B4DE002EB78D /* AAProductDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAProductDetailsViewController.swift; sourceTree = "<group>"; };
+		306A78052141B510002EB78D /* AAHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAHomeViewController.swift; sourceTree = "<group>"; };
+		306A780D2141E792002EB78D /* AAProductManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAProductManager.swift; sourceTree = "<group>"; };
+		306A78132141FC6C002EB78D /* products.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
+		306A78152141FCB5002EB78D /* AAStubbedServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAStubbedServer.swift; sourceTree = "<group>"; };
 		30CF6F81213B1C8600B37E4D /* AdviqoAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdviqoAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30CF6F84213B1C8600B37E4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30CF6F89213B1C8600B37E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -50,8 +56,6 @@
 		30CF6FA9213B1ED700B37E4D /* AADataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AADataController.swift; sourceTree = "<group>"; };
 		30CF6FAB213B201900B37E4D /* AAServiceFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAServiceFetcher.swift; sourceTree = "<group>"; };
 		30CF6FAD213B256800B37E4D /* AACoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AACoreDataStack.swift; sourceTree = "<group>"; };
-		30CF6FAF213B2A7E00B37E4D /* AAProductListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAProductListingViewController.swift; sourceTree = "<group>"; };
-		30CF6FB1213B44EC00B37E4D /* AAImageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAImageHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		306A77FE2141B495002EB78D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				306A78022141B4DE002EB78D /* AAProductDetailsViewController.swift */,
+				306A78012141B4DE002EB78D /* AAProductListingViewController.swift */,
+				306A78052141B510002EB78D /* AAHomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		306A78072141DFB5002EB78D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				30CF6F8B213B1C8600B37E4D /* AdviqoAssignment.xcdatamodeld */,
+				30CF6FA9213B1ED700B37E4D /* AADataController.swift */,
+				30CF6FAD213B256800B37E4D /* AACoreDataStack.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		306A78082141E014002EB78D /* ServiceFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				30CF6FAB213B201900B37E4D /* AAServiceFetcher.swift */,
+			);
+			path = ServiceFetcher;
+			sourceTree = "<group>";
+		};
+		306A78092141E047002EB78D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				30CF6F88213B1C8600B37E4D /* Main.storyboard */,
+				30CF6F8E213B1C8600B37E4D /* Assets.xcassets */,
+				30CF6F90213B1C8600B37E4D /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		306A780A2141E06D002EB78D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30CF6FA7213B1CC300B37E4D /* AAProduct.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		306A780B2141E08B002EB78D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				30CF6F84213B1C8600B37E4D /* AppDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		306A780C2141E772002EB78D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				306A780D2141E792002EB78D /* AAProductManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		306A78122141FC44002EB78D /* Stubbed */ = {
+			isa = PBXGroup;
+			children = (
+				306A78132141FC6C002EB78D /* products.json */,
+				306A78152141FCB5002EB78D /* AAStubbedServer.swift */,
+			);
+			path = Stubbed;
+			sourceTree = "<group>";
+		};
 		30CF6F78213B1C8600B37E4D = {
 			isa = PBXGroup;
 			children = (
@@ -93,20 +168,15 @@
 		30CF6F83213B1C8600B37E4D /* AdviqoAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				30CF6F84213B1C8600B37E4D /* AppDelegate.swift */,
-				30CF6F88213B1C8600B37E4D /* Main.storyboard */,
-				30CF6F8E213B1C8600B37E4D /* Assets.xcassets */,
-				30CF6F90213B1C8600B37E4D /* LaunchScreen.storyboard */,
+				306A78122141FC44002EB78D /* Stubbed */,
 				30CF6F93213B1C8600B37E4D /* Info.plist */,
-				30CF6F8B213B1C8600B37E4D /* AdviqoAssignment.xcdatamodeld */,
-				30CF6FA7213B1CC300B37E4D /* AAProduct.swift */,
-				30CF6FA9213B1ED700B37E4D /* AADataController.swift */,
-				30CF6FAB213B201900B37E4D /* AAServiceFetcher.swift */,
-				30CF6FAD213B256800B37E4D /* AACoreDataStack.swift */,
-				30CF6FAF213B2A7E00B37E4D /* AAProductListingViewController.swift */,
-				30257DA12140ADF000A347B8 /* AAHomeViewController.swift */,
-				30257D9F2140AC3300A347B8 /* AAProductDetailsViewController.swift */,
-				30CF6FB1213B44EC00B37E4D /* AAImageHelper.swift */,
+				306A780C2141E772002EB78D /* Manager */,
+				306A780B2141E08B002EB78D /* Common */,
+				306A780A2141E06D002EB78D /* Models */,
+				306A78092141E047002EB78D /* UI */,
+				306A78082141E014002EB78D /* ServiceFetcher */,
+				306A78072141DFB5002EB78D /* CoreData */,
+				306A77FE2141B495002EB78D /* ViewControllers */,
 			);
 			path = AdviqoAssignment;
 			sourceTree = "<group>";
@@ -205,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				30CF6F92213B1C8600B37E4D /* LaunchScreen.storyboard in Resources */,
+				306A78142141FC6C002EB78D /* products.json in Resources */,
 				30CF6F8F213B1C8600B37E4D /* Assets.xcassets in Resources */,
 				30CF6F8A213B1C8600B37E4D /* Main.storyboard in Resources */,
 			);
@@ -224,13 +295,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30CF6FB2213B44EC00B37E4D /* AAImageHelper.swift in Sources */,
+				306A78032141B4DE002EB78D /* AAProductListingViewController.swift in Sources */,
+				306A78162141FCB5002EB78D /* AAStubbedServer.swift in Sources */,
+				306A780E2141E792002EB78D /* AAProductManager.swift in Sources */,
+				306A78042141B4DE002EB78D /* AAProductDetailsViewController.swift in Sources */,
+				306A78062141B510002EB78D /* AAHomeViewController.swift in Sources */,
 				30CF6FA8213B1CC300B37E4D /* AAProduct.swift in Sources */,
 				30CF6FAE213B256800B37E4D /* AACoreDataStack.swift in Sources */,
-				30257DA22140ADF000A347B8 /* AAHomeViewController.swift in Sources */,
-				30CF6FB0213B2A7E00B37E4D /* AAProductListingViewController.swift in Sources */,
 				30CF6F8D213B1C8600B37E4D /* AdviqoAssignment.xcdatamodeld in Sources */,
-				30257DA02140AC3300A347B8 /* AAProductDetailsViewController.swift in Sources */,
 				30CF6F85213B1C8600B37E4D /* AppDelegate.swift in Sources */,
 				30CF6FAA213B1ED700B37E4D /* AADataController.swift in Sources */,
 				30CF6FAC213B201900B37E4D /* AAServiceFetcher.swift in Sources */,
@@ -275,7 +347,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		30CF6F9F213B1C8600B37E4D /* Debug */ = {
+		306A780F2141F529002EB78D /* DebugStubbed */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,7 +402,97 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = DebugStubbed;
+		};
+		306A78102141F529002EB78D /* DebugStubbed */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AJ44N5SBM;
+				INFOPLIST_FILE = AdviqoAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DSTUBBED";
+				PRODUCT_BUNDLE_IDENTIFIER = NIladri.AdviqoAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = DebugStubbed;
+		};
+		306A78112141F529002EB78D /* DebugStubbed */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AJ44N5SBM;
+				INFOPLIST_FILE = AdviqoAssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NIladri.AdviqoAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdviqoAssignment.app/AdviqoAssignment";
+			};
+			name = DebugStubbed;
+		};
+		30CF6F9F213B1C8600B37E4D /* DebugLive */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = DebugLive;
 		};
 		30CF6FA0213B1C8600B37E4D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -382,7 +544,7 @@
 			};
 			name = Release;
 		};
-		30CF6FA2213B1C8600B37E4D /* Debug */ = {
+		30CF6FA2213B1C8600B37E4D /* DebugLive */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -395,7 +557,7 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = DebugLive;
 		};
 		30CF6FA3213B1C8600B37E4D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -412,7 +574,7 @@
 			};
 			name = Release;
 		};
-		30CF6FA5213B1C8600B37E4D /* Debug */ = {
+		30CF6FA5213B1C8600B37E4D /* DebugLive */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -427,7 +589,7 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdviqoAssignment.app/AdviqoAssignment";
 			};
-			name = Debug;
+			name = DebugLive;
 		};
 		30CF6FA6213B1C8600B37E4D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -452,7 +614,8 @@
 		30CF6F7C213B1C8600B37E4D /* Build configuration list for PBXProject "AdviqoAssignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30CF6F9F213B1C8600B37E4D /* Debug */,
+				30CF6F9F213B1C8600B37E4D /* DebugLive */,
+				306A780F2141F529002EB78D /* DebugStubbed */,
 				30CF6FA0213B1C8600B37E4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -461,7 +624,8 @@
 		30CF6FA1213B1C8600B37E4D /* Build configuration list for PBXNativeTarget "AdviqoAssignment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30CF6FA2213B1C8600B37E4D /* Debug */,
+				30CF6FA2213B1C8600B37E4D /* DebugLive */,
+				306A78102141F529002EB78D /* DebugStubbed */,
 				30CF6FA3213B1C8600B37E4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -470,7 +634,8 @@
 		30CF6FA4213B1C8600B37E4D /* Build configuration list for PBXNativeTarget "AdviqoAssignmentTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30CF6FA5213B1C8600B37E4D /* Debug */,
+				30CF6FA5213B1C8600B37E4D /* DebugLive */,
+				306A78112141F529002EB78D /* DebugStubbed */,
 				30CF6FA6213B1C8600B37E4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
